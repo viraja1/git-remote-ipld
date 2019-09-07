@@ -20,12 +20,12 @@ Note: Some features like remote tracking are still missing, though the plugin is
 quite usable. IPNS helper is WIP and doesn't yet do what it should
 
 ## Installation
+Make sure you run go-ipfs 0.4.17 or newer as we need git support
 1. `go get -u -v github.com/viraja1/git-remote-ipld`
 2. `cd ~/go/src/github.com/viraja1/git-remote-ipld`
 3. `GO111MODULE=on make`
 4. `cd cmd/git-remote-ipld`
 5. `GO111MODULE=on go install .`
-6. Make sure you run go-ipfs 0.4.17 or newer as you need git support
 
 ## Limitations / TODOs
 * ipns remote is not implemented fully yet
